@@ -1,0 +1,38 @@
+## Arguments requiring values
+--f "/work/users/s/l/slyon/ProteoBench_Astral_DIA/LFQ_Astral_DIA_15min_50ng_Condition_A_REP1.mzML"
+--f "/work/users/s/l/slyon/ProteoBench_Astral_DIA/LFQ_Astral_DIA_15min_50ng_Condition_A_REP2.mzML"
+--f "/work/users/s/l/slyon/ProteoBench_Astral_DIA/LFQ_Astral_DIA_15min_50ng_Condition_A_REP3.mzML"
+--f "/work/users/s/l/slyon/ProteoBench_Astral_DIA/LFQ_Astral_DIA_15min_50ng_Condition_B_REP1.mzML"
+--f "/work/users/s/l/slyon/ProteoBench_Astral_DIA/LFQ_Astral_DIA_15min_50ng_Condition_B_REP2.mzML"
+--f "/work/users/s/l/slyon/ProteoBench_Astral_DIA/LFQ_Astral_DIA_15min_50ng_Condition_B_REP3.mzML"
+--out "/nas/longleaf/home/slyon/DIANN/ProteoBench/Search4/Search4_report.tsv"
+--fasta "/nas/longleaf/home/slyon/DIANN/ProteoBench/ProteoBenchFASTA_MixedSpecies_HYE.fasta"
+--threads 100
+--verbose 1
+--qvalue 0.01
+--min-fr-mz 50
+--max-fr-mz 2000
+--min-pr-mz 400
+--max-pr-mz 1000
+--cut K*,R*
+--missed-cleavages 1
+--min-pep-len 6
+--max-pep-len 30
+--min-pr-charge 1
+--max-pr-charge 4
+--fixed-mod UniMod:4,57.021464,C
+--var-mods 2
+--var-mod UniMod:35,15.994915,M
+--var-mod UniMod:1,42.010565,*n
+--gen-spec-lib
+--met-excision
+--rt-profiling
+--fasta-search
+--high-acc
+--predictor
+--met-excision
+--matrices
+--reanalyse # enables MBR
+--peptidoforms
+--full-profiling
+--direct-quant
