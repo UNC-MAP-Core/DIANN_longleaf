@@ -1,4 +1,4 @@
-\# Running DIA-NN on LongLeaf (HPC) at UNC
+# Running DIA-NN on LongLeaf (HPC) at UNC
 
 
 This repository is for running DIA proteomics data on the longleaf HPC at UNC. If you are not a UNC member, I'm sure the scripts can be used with minor changes on your own HPC.
@@ -10,11 +10,11 @@ First, the user needs to have a longleaf account at UNC. Please reach out to IT 
 
 Here are links to helpful information:
 
-* \[UNC Research Computing](https://help.rc.unc.edu/)
-* \[Getting started on longleaf](https://help.rc.unc.edu/getting-started-on-longleaf#applications-environment)
-* \[Module Software Management](https://help.rc.unc.edu/modules/)
-* \[Longleaf Cluster SLURM Jobs](https://help.rc.unc.edu/longleaf-slurm-examples/)
-* \[Data Storage](https://help.rc.unc.edu/storage)
+* [UNC Research Computing](https://help.rc.unc.edu/)
+* [Getting started on longleaf](https://help.rc.unc.edu/getting-started-on-longleaf#applications-environment)
+* [Module Software Management](https://help.rc.unc.edu/modules/)
+* [Longleaf Cluster SLURM Jobs](https://help.rc.unc.edu/longleaf-slurm-examples/)
+* [Data Storage](https://help.rc.unc.edu/storage)
 * It would also be very helpful to familiarize yourself with basic Unix commands, such as cd, ls, and cat.
 
 
