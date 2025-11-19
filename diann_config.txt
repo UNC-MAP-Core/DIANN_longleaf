@@ -12,8 +12,8 @@
 --qvalue 0.01
 --min-fr-mz 50
 --max-fr-mz 2000
---min-pr-mz 400
---max-pr-mz 1000
+--min-pr-mz 380
+--max-pr-mz 980
 --cut K*,R*
 --missed-cleavages 1
 --min-pep-len 6
@@ -30,9 +30,7 @@
 --fasta-search
 --high-acc
 --predictor
---met-excision
 --matrices
 --reanalyse # enables MBR
 --peptidoforms
 --full-profiling
---direct-quant
